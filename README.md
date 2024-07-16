@@ -1,2 +1,2 @@
 # jsProjects
-A simple scorecard  implementing HTML and CSS for UI and JS is implemented for the functionality
+Simple HTML CSS and JS projects as a beginner web developer
