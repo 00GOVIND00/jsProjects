@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreCard {
+    width: 60vh;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid;
+    text-align: center;
+    background-image: url(./ball.png);
+    object-fit: cover;
+    color: antiquewhite;
+
+}
+
+.team-name {
+    position: relative;
+}
+
+h4 {
+    border: 4px;
+    padding: 20%;
+    font-size: 2.2em;
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 200 to 800
+
+    .oxanium-<uniquifier> {
+        font-family: "Oxanium", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+}
+
+.pointer {
+    display: flex;
+    gap: 10%;
+    justify-content: space-around;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10%;
+    text-align: center;
+    font-size: large;
+    box-shadow: 10px;
+}
